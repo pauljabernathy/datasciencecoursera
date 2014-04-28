@@ -1,4 +1,4 @@
-### Getting and Cleaning Data Project Runbook
+### Getting and Cleaning Data Project Code Book
 
 The variables were loaded from the train/X_train.csv and test/X_test.csv files, which contain the observartions of the 561 variables, but do do not say which subject was wearing the phone at the time or what activity they were doing.  The information on subjects came from train/subject_test and test/subject_test, and the actions came from train/y_test and test/y_test.  These were loaded at added to the R data frame as the first and second column, respectively.  
 
