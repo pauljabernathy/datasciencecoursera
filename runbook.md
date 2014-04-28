@@ -1,0 +1,3 @@
+### Getting and Cleaning Data Project Runbook
+
+The variables were loaded from the train/X_train.csv and test/X_test.csv files.  The subjects came from train/subject_test and test/subject_test, and the actions came from train/y_test and test/y_test.  The names of the variables in the data frame came from features.txt, which describes the variable names the experimenters gave.  Some minor changes were made to the variable names, to remove things like numbers, spaces, commas, and parentheses.
