@@ -1,0 +1,5 @@
+### Getting and Cleaning Data Project Runbook
+
+The variables were loaded from the train/X_train.csv and test/X_test.csv files, which contain the observartions of the 561 variables, but do do not say which subject was wearing the phone at the time or what activity they were doing.  The information on subjects came from train/subject_test and test/subject_test, and the actions came from train/y_test and test/y_test.  These were loaded at added to the R data frame as the first and second column, respectively.  
+
+The names of the variables in the data frame came from features.txt, which describes the variable names the experimenters gave.  Some minor changes were made to the variable names, to remove things like numbers, spaces, commas, and parentheses.  For a complete list of the variables, look in features.txt or check out the experiment web page at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
